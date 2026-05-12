@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-10, -50)">
+    <path d="M120 140 L150 110 L180 140 L150 170 Z" fill="#4a90d9" />
+    <path d="M120 140 L150 170 L150 370 L120 340 Z" fill="#1840aa" />
+    <path d="M150 170 L180 140 L180 340 L150 370 Z" fill="#2760cc" />
+
+    <path d="M120 140 L150 110 L180 140 L150 170 Z" fill="#4a90d9" />
+    <path d="M120 140 L150 170 L210 430 L180 400 Z" fill="#1840aa" />
+    <path d="M150 170 L180 140 L240 400 L210 430 Z" fill="#2760cc" />
+
+    <path d="M240 260 L270 230 L300 260 L270 290 Z" fill="#4a90d9" />
+    <path d="M240 260 L270 290 L210 430 L180 400 Z" fill="#1840aa" />
+    <path d="M270 290 L300 260 L240 400 L210 430 Z" fill="#2760cc" />
+
+    <path d="M240 330 L330 270 L360 300 L270 390 Z" fill="#4a90d9" />
+    <path d="M270 390 L360 300 L360 350 L270 440 Z" fill="#2760cc" />
+
+    <path d="M240 260 L370 130 L400 160 L270 290 Z" fill="#4a90d9" />
+    <path d="M270 290 L400 160 L400 210 L270 340 Z" fill="#2760cc" />
+
+    <path d="M240 260 L270 230 L300 260 L270 290 Z" fill="#4a90d9" />
+    <path d="M240 260 L270 290 L270 490 L240 460 Z" fill="#1840aa" />
+    <path d="M270 290 L300 260 L300 460 L270 490 Z" fill="#2760cc" />
+  </g>
+</svg>
