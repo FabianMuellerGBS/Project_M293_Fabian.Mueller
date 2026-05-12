@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Inter:wght@400&display=swap');
+
+:root 
+{
+    --font-title: 'Raleway', sans-serif;
+    --font-text: 'Inter', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+
+    --color-title: #1A2A3A;
+    --color-text: #56687A;
+    --color-input-text: #2C6EA0;
+    --color-button-text-v1: #2C6EA0;
+    --color-button-text-v2: #F8FAFC;
+    --color-button-bg-v1: #B3D4F0;
+    --color-button-bg-v2: #5A9FD4;
+
+    --color-bg-main: #F8FAFC;
+    --color-bg-nav: #E8F2FB;
+    --color-bg-header: #B3D4F0;
+    --color-bg-field: #B3D4F0;
+}
+
+
+
