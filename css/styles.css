@@ -185,7 +185,19 @@ nav
 
 main
 {
+    margin-left: var(--nav-width);
+    padding: 40px;
     flex: 1;
+}
+
+h2
+{
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-title);
+    font-size: 1.25rem;
+    margin: 0 0 12px 0;
+    text-align: center;
 }
 
 
@@ -205,5 +217,9 @@ main
     nav
     {
         display: none;
+    }
+    main
+    {
+        margin-left: 0;
     }
 }
