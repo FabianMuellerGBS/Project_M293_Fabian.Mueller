@@ -1,0 +1,21 @@
+#skills-container
+{
+    padding: 0 40px;
+}
+
+.skill-item ul
+{
+    color: var(--color-text);
+    font-family: var(--font-text);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px)
+{
+    #skills-container
+    {
+        padding: 0 16px;
+    }
+}
