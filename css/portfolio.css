@@ -1,0 +1,51 @@
+#portfolio-container
+{
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+    align-items: start;
+}
+
+.project-card
+{
+    background-color: var(--color-button-bg-v1);
+    border-radius: 16px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-image
+{
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-title
+{
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-title);
+    margin: 0;
+    font-size: 1rem;
+}
+
+.project-description
+{
+    color: var(--color-text);
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px)
+{
+    #portfolio-container
+    {
+        padding: 0 16px;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+}
