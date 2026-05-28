@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Kontakt</title>
 </head>
 <body>
@@ -27,7 +28,22 @@
         </div></a>
     </nav>
     <main>
-
+        <h2>Kontakt</h2>
+        <div id="contact-container">
+            <div id="contact-informationen">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="contact-formular">
+                <form>
+                    <input type="text" placeholder="Vorname" required>
+                    <input type="text" placeholder="Nachname" required>
+                    <input type="email" placeholder="E-Mail" required>
+                    <input type="text" placeholder="Betreff" required>
+                    <textarea placeholder="Nachricht" required></textarea>
+                    <button type="button" onclick="this.closest('form').reset()">Senden</button>
+                </form>
+            </div>
+        </div>
     </main>
 </body>
 </html>
