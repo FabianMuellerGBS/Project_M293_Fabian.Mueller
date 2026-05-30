@@ -16,6 +16,30 @@
     box-sizing: border-box;
 }
 
+#contact-informationen label
+{
+    display: block;
+    color: var(--color-title);
+    font-family: var(--font-text);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 12px;
+}
+
+#contact-informationen p
+{
+    color: var(--color-text);
+    margin: 2px 0;
+    padding-left: 12px;
+    font-weight: var(--font-weight-regular);
+}
+
+#contact-informationen a,
+#contact-informationen a:visited
+{
+    color: var(--color-text);
+    text-decoration: underline;
+}
+
 #contact-formular
 {
     flex: 1;

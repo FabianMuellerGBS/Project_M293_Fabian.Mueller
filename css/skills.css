@@ -1,6 +1,17 @@
 #skills-container
 {
     padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-item h3
+{
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-title);
+    font-size: 1rem;
+    margin: 0 0 4px 0;
 }
 
 .skill-item ul
@@ -17,5 +28,6 @@
     #skills-container
     {
         padding: 0 16px;
+        grid-template-columns: 1fr;
     }
 }
