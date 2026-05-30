@@ -1,6 +1,6 @@
 #skills-container
 {
-    padding: 0 40px;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

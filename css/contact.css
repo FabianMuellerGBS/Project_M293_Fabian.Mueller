@@ -1,18 +1,25 @@
 #contact-container
 {
-    padding: 0 40px;
     display: flex;
     flex-direction: row;
-    gap: 24px;
     align-items: stretch;
+    gap: 24px;
+}
+
+#contact-item-information,
+#contact-item-formular
+{
+    flex: 1;
+    box-sizing: border-box;
+    min-width: 0;
 }
 
 #contact-informationen
 {
-    flex: 1;
     background-color: var(--color-button-bg-v1);
     border-radius: 16px;
     padding: 16px;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -23,6 +30,8 @@
     font-family: var(--font-text);
     font-weight: var(--font-weight-semibold);
     margin-bottom: 12px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 #contact-informationen p
@@ -31,6 +40,8 @@
     margin: 2px 0;
     padding-left: 12px;
     font-weight: var(--font-weight-regular);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 #contact-informationen a,
@@ -42,9 +53,9 @@
 
 #contact-formular
 {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 #contact-formular form
@@ -120,22 +131,25 @@
 {
     #contact-container
     {
-        padding: 0;
         flex-direction: column;
-        align-items: stretch;
+        gap: 16px;
+    }
+
+    #contact-item-information,
+    #contact-item-formular
+    {
+        width: 100%;
     }
 
     #contact-informationen
     {
-        width: 100%;
+        height: auto;
         min-height: 200px;
-        flex: none;
     }
 
     #contact-formular
     {
-        width: 100%;
-        flex: none;
+        height: auto;
     }
 
     #contact-formular textarea
