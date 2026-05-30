@@ -34,8 +34,9 @@
     overflow-wrap: break-word;
 }
 
-#contact-informationen p
+#contact-informationen span
 {
+    display: block;
     color: var(--color-text);
     margin: 2px 0;
     padding-left: 12px;
